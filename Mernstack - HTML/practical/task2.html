@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <!-- full name -->
+
+        <label for="fullname">FullName:</label><br>
+        <input type="text" id="fullname" name="fullname" required minlength="3" maxlength="50">
+ <br><br>
+        <!-- email -->
+     <label for="email">Email:</label><br>
+     <input type="email" id="email" name="email" required>
+
+     <!-- phone number -->
+      <label for="PhoneNumber">PhoneNumber:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <br><br>
+
+       <label for="subject">Subject:</label><br>
+        <select id="subject" name="subject" required>
+             <option value="support">Support</option>
+            <option value="sales">Sales</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+  </select>
+  <br><br>
+     <!-- Message -->
+  <label for="message">Message:</label><br>
+  <textarea id="message"name="message"required minlength="10"maxlength="500"rows="5"cols="40"></textarea>
+  <br><br>
+
+  <!-- Submit Button -->
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
